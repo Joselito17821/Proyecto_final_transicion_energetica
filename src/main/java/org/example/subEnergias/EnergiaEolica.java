@@ -1,4 +1,7 @@
-package org.example;
+package org.example.subEnergias;
+
+import org.example.EnergiaRenovable;
+import org.example.IEnergia;
 
 public class EnergiaEolica extends EnergiaRenovable implements IEnergia {
     public EnergiaEolica(double produccion, double consumo) {

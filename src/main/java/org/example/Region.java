@@ -13,12 +13,35 @@ public class Region {
         this.energias = new ArrayList<>();
     }
 
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
-    public String getLocalizacion() { return localizacion; }
-    public void setLocalizacion(String localizacion) { this.localizacion = localizacion; }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setLocalizacion(String localizacion) {
+        this.localizacion = localizacion;
+    }
+
+    public void setEnergias(ArrayList<EnergiaRenovable> energias) {
+        this.energias = energias;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getLocalizacion() {
+        return localizacion;
+    }
+
+    public ArrayList<EnergiaRenovable> getEnergias() {
+        return energias;
+    }
 
     public void agregarEnergia(EnergiaRenovable energia) { energias.add(energia); }
+
+    public void mostrarRegion() {
+        System.out.println("Pais: " + nombre);
+    }
 
     public void mostrarEficiencias() {
         for (EnergiaRenovable energia : energias) {
