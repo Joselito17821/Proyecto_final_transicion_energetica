@@ -45,3 +45,4 @@ public abstract class EnergiaRenovable {
         // Método abstracto para calcular eficiencia
     public abstract double calcularEficiencia();
 }
+

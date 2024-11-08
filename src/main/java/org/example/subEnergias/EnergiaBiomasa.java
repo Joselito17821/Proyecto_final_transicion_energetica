@@ -13,3 +13,4 @@ public class EnergiaBiomasa extends EnergiaRenovable implements IEnergia {
         return (getProduccion() - 0.05 * getConsumo()) / getConsumo(); // Ejemplo de cálculo específico
     }
 }
+

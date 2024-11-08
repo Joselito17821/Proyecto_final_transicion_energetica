@@ -15,9 +15,9 @@ public class Main {
 
             switch (opcion) {
                 case "1":
-                    String nombreRegion = JOptionPane.showInputDialog("Ingrese el nombre de la región:");
-                    String localizacion = JOptionPane.showInputDialog("Ingrese la localización de la región:");
-                    regiones.add(new Region(nombreRegion, localizacion));
+                    String nombrePais = JOptionPane.showInputDialog("Ingrese el nombre del pais:");
+                    String localizacion = JOptionPane.showInputDialog("Ingrese el continente del pais:");
+                    regiones.add(new Region(nombrePais, localizacion));
                     JOptionPane.showMessageDialog(null, "Región agregada exitosamente.");
                     break;
 
