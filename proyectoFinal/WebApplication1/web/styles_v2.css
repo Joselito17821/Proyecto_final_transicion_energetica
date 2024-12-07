@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+/* DEFINICIÓN DEL TEMA OSCURO */
+body.dark-theme {
+    background-color: #121212; /* Fondo oscuro */
+    color: #f4f4f9; /* Texto claro */
+}
+
+
+/* Encabezado BANNER */
+.banner {
+    /*height: 200px; /* Altura del banner */
+    height: 40vh;
+    /*width: 100vh;*/
+    background: url('imagenes/BannerEnergyBlack.jpeg') no-repeat center center; /* Imagen centrada en el banner */
+    border: 1px solid black; /* Borde negro alrededor del banner */
+    background-size: cover; /* Escala la imagen para cubrir completamente el área */
+}
+
+
+
+/* Encabezado */
+header {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 10px 0;
+}
+
+
+
+/* Botón de cambio de tema */
+#theme-toggle {
+    background-color: #6c757d; /* Fondo gris */
+    color: white; /* Texto blanco */
+    border: none;
+    width: 60px; /* Ajusta según el tamaño del botón */
+    height: 40px;
+    padding: 0;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex; /* Activa el modo flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente (opcional si no hay texto adicional) */
+    gap: 0; /* Espaciado entre el ícono y el texto */
+
+}
+
+#theme-toggle:hover {
+    background-color: #5a6268;
+}
+
+#theme-toggle i {
+    margin-right: 8px; /* Espaciado entre el ícono y el texto */
+    font-size: 1.5rem; /* Tamaño del ícono */
+}
+
+
+
+/* Menú de navegación */
+.navbar {
+    background-color:#ffffff ;  /*#f8f9fa; /* Fondo claro */
+    
+}
+
+body.dark-theme .navbar {
+    background-color:darkred ; /*#1e1e1e; /* Color_Texto con Puntero/ En tema oscuro */
+    
+    
+}
+
+.navbar a {
+    color: black; /*#000; /* Color de TEXTO enlaces en tema claro */
+}
+
+body.dark-theme .navbar a {
+    color: gray; /*#7d7d7d; /* Color de TEXTO enlaces en tema oscuro */
+    
+}
+
+
+
+/* Secciones */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000; /* Color de texto en tema claro */
+}
+
+body.dark-theme section {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #737373; /* Texto claro */
+}
+
+
+/* Estilos para secciones en tema oscuro */
+body.dark-theme section {
+    background-color: #2a2a2a; /* Fondo oscuro */
+    color: gray;/*#eaeaea; /* Texto claro */
+}
+
+
+
+/* Pie de página */
+footer {
+    background-color: #343a40; /* Fondo gris oscuro */
+    color: white;
+    padding: 10px;
+}
+
+body.dark-theme footer {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #f4f4f9; /* Texto claro */
+}

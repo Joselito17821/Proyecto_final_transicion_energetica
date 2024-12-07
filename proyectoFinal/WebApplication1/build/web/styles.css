@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Tema oscuro */
+body.dark-theme {
+    background-color: #121212; /* Fondo oscuro */
+    color: #f4f4f9; /* Texto claro */
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 10px 0;
+}
+
+/* Botón de cambio de tema */
+#theme-toggle {
+    background-color: #6c757d; /* Fondo gris */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: #5a6268;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Fondo claro */
+}
+
+body.dark-theme .navbar {
+    background-color: #1e1e1e; /* Fondo oscuro en tema oscuro */
+}
+
+.navbar a {
+    color: #000; /* Color de enlaces en tema claro */
+}
+
+body.dark-theme .navbar a {
+    color: #f4f4f9; /* Color de enlaces en tema oscuro */
+}
+
+/* Secciones */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000; /* Color de texto en tema claro */
+}
+
+body.dark-theme section {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #f4f4f9; /* Texto claro */
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40; /* Fondo gris oscuro */
+    color: white;
+    padding: 10px;
+}
+
+body.dark-theme footer {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #f4f4f9; /* Texto claro */
+}
